@@ -1,0 +1,38 @@
+.services-container{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+h1{
+    text-align: center;
+}
+.card{
+    margin-left: 50px;
+    margin-right: 50px;
+    border: none;
+    margin-bottom: 100px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+@media(max-width: 800px){
+    .card{
+        margin-left: 0px;
+        margin-right: 0px; 
+        padding: 20px;  
+        margin-bottom: 25px;
+        box-shadow: none;     
+    }
+    .img-fluid{
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+    }
+    .row{
+        text-align: center;
+    }
+    p{
+        text-align:justify;
+    }
+    
+}

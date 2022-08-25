@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+}
+.review-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.review-item{
+    width: 400px;
+    padding: 30px;
+    border-radius: 25px;
+    margin: 25px 50px;
+    box-shadow: rgba(171, 171, 171, 0.35) 0px -2px 6px 0px inset;
+}
+@media(max-width: 800px){
+    .review-item{
+        margin: 25px 25px;
+    }
+}

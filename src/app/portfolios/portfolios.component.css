@@ -1,0 +1,77 @@
+h1{
+    text-align: center;
+}
+.btn{
+    border-color: #3D2639;
+    color:#3D2639;
+}:focus{
+    outline:none;
+    box-shadow: none;
+    background-color: white;
+}
+.btn:hover{
+    background-color: #3D2639;
+    color: white;
+}
+
+.slider-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+}
+.slider-item-content{
+    margin-top: 5%;
+    width: 500px;
+}
+#carouselExampleIndicators{
+    margin-top: 7%;
+    margin-bottom: 10%;
+}
+.slider-image{
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
+}
+.carousel-control-prev{
+    background-color: transparent;
+
+}
+.carousel-control-prev-icon{
+    margin-bottom: 150px;
+}
+.carousel-control-next{
+    background-color: transparent;
+}
+.carousel-control-next-icon{
+    margin-bottom: 150px;
+}
+@media(max-width: 1025px){
+    .slider-image{
+        width: 350px;
+        height: 350px;
+    }
+    .slider-item{
+        margin-bottom: 20%;
+    }
+    .slider-item-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;        
+    }
+    p{
+        width: fit-content;
+        margin: 0 30px;
+        text-align:justify;
+    }
+    .carousel-control-prev{
+        display: none;
+    }
+    .carousel-control-next{
+        display: none;
+    }
+    #carouselExampleIndicators{
+        margin-bottom: 25%;
+    }
+}

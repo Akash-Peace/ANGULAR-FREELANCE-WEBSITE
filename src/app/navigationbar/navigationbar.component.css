@@ -1,0 +1,53 @@
+.navbar-brand{
+    font-weight: 500;
+    margin-left: 70px;
+    cursor: default;
+}
+.btn{
+    margin-right: 80px;
+    background-color: #3D2639;
+    border-color: #3D2639;
+    color: white;
+}:focus{
+    outline:none;
+    box-shadow: none;
+}
+#btn-animation{
+    animation: shake 3s cubic-bezier(.36,.07,.19,.97) both infinite;
+}
+.navbar{
+    background-color: white;
+}
+@media(max-width:700px){
+    .navbar-brand{
+        margin-left: 0;
+    }
+    .btn{
+        margin-right: 0;
+    }
+}
+@media(max-width: 380px){
+    .navbar-brand{
+        font-size: large;
+    }
+}
+.modal-footer{
+    justify-content: space-evenly;
+}
+@keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(1px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-1px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(1px, 0, 0);
+    }
+  }
