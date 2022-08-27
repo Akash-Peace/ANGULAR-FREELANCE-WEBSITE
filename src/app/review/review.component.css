@@ -5,8 +5,8 @@ h1{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 5%;
+    margin-bottom: 15%;
 }
 .review-item{
     width: 400px;

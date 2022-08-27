@@ -2,11 +2,12 @@
     font-weight: 500;
     margin-left: 70px;
     cursor: default;
+    color: white;
 }
 .btn{
     margin-right: 80px;
     background-color: #3D2639;
-    border-color: #3D2639;
+    border-color: white;
     color: white;
 }:focus{
     outline:none;
@@ -16,8 +17,9 @@
     animation: shake 3s cubic-bezier(.36,.07,.19,.97) both infinite;
 }
 .navbar{
-    background-color: white;
+    background-color: #3D2639;
 }
+
 @media(max-width:700px){
     .navbar-brand{
         margin-left: 0;

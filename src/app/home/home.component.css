@@ -21,7 +21,7 @@
 
 h1{
     font-size: 75px;
-    background: linear-gradient(-45deg, #3D2639, #6C63FF, #3D2639);
+    background: linear-gradient(-45deg, #6C63FF, #3D2639, #6C63FF);
     background-size: 200% 200%;
     animation: Animation 5s ease infinite, Slide 2s ease;
     background-clip: text;
