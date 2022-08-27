@@ -1,6 +1,6 @@
 <h1><span style="text-decoration:line-through;">Clients</span> Friends are talking<br><span style="color: #6C63FF;">and they are happy</span></h1>
 <div class="review-container">
-    <div *ngFor="let data of review" [attr.data-aos]="data.name === 'AK Vasu' ? 'fade-right' : 'fade-left'" class="review-item">
+    <div *ngFor="let data of review" data-aos="fade-up" class="review-item">
         <div style="display: flex; align-items: center">
             <img src={{data.profile}} alt="profile" width="70" height="70" style="border-radius: 40px;">
             <h3>&nbsp;&nbsp;&nbsp;{{data.name}}</h3>

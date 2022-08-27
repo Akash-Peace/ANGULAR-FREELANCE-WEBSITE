@@ -13,6 +13,7 @@ h1{
     padding: 30px;
     border-radius: 25px;
     margin: 25px 50px;
+    overflow-x: hidden; /* just added for avoiding data-aos hideen but it seems not working */
     box-shadow: rgba(171, 171, 171, 0.35) 0px -2px 6px 0px inset;
 }
 @media(max-width: 800px){
