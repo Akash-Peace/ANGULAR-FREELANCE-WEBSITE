@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import * as AOS from "aos";
 
 @Component({
   selector: 'app-root',
@@ -7,7 +6,4 @@ import * as AOS from "aos";
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  ngOnInit(){
-    AOS.init()
-  }
 }
